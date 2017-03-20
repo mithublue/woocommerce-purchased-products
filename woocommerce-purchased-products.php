@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: WooCommerce Products Purchased
+Plugin Name: WooCommerce Purchased Products
 Plugin URI:
-Description: Show list of products purchased by the logged in user in his account
+Description: Shows list of products purchased by the logged in user in his account
 Author: Mithu A Quayium
 Author URI:
 Version: 1.0
@@ -106,13 +106,7 @@ class WCPP_Init{
                                 <?php
                             }
                             //pri($items);
-
-                            ?>
-
-                            <?php
-
                         }
-
                         wp_reset_postdata();
                         ?>
                     </div>
