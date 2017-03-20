@@ -124,7 +124,9 @@ class WCPP_Init{
     }
 
     public function wp_enqueue_scripts_styles() {
-        wp_enqueue_style( 'wcpp-bs', WCPP_ASSET_PATH.'/css/wrapper-bs.css' );
+        if( is_account_page() ) {
+            wp_enqueue_style( 'wcpp-bs', WCPP_ASSET_PATH.'/css/wrapper-bs.css' );
+        }
     }
 
 }
