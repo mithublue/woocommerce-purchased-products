@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WooCommerce Purchased Products
+Plugin Name: Woo Purchased Products
 Plugin URI:
 Description: Shows list of products purchased by the logged in user in his account
 Author: Mithu A Quayium
