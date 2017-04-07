@@ -45,11 +45,17 @@ class WCPP_Init{
      * *Singleton* via the `new` operator from outside of this class.
      */
     protected function __construct() {
+
         add_action( 'wp_enqueue_scripts', array( $this, 'wp_enqueue_scripts_styles' ) );
         add_action( 'init', array( $this, 'add_tab_endpoint') );
         add_filter( 'query_vars', array( $this, 'tabs_query_vars' ), 0 );
         add_filter( 'woocommerce_account_menu_items', array( $this, 'add_menu_item' ) );
         add_action( 'woocommerce_account_cpp-purchased-products_endpoint', array( $this, 'purchased_product_item_content' ) );
+        $this->includes();
+    }
+
+    public function includes() {
+        require_once dirname(__FILE__).'/vote.php';
     }
 
     public function add_tab_endpoint() {
