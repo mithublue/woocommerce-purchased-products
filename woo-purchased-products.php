@@ -92,7 +92,13 @@ class WCPP_Init{
                             $customer_orders->the_post();
 
                             $order        = wc_get_order();
-                            $order_id     = $order->id; // get the order ID )or may be "order->ID")
+                            if ( version_compare( WC_VERSION, '3.0', '<' ) ) {
+                                $order_id     = $order->id; // get the order ID )or may be "order->ID")
+                            } else {
+                                // its 3.00
+                                $order_id = $order->get_id();
+                            }
+
                             // getting all products items for each order
                             $items = $order->get_items();
 
