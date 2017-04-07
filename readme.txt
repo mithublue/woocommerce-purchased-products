@@ -11,6 +11,11 @@ The plugin to help a logged in user show list of products purchased by him in hi
 
 == Description ==
 
+= Our Official Support Forum =
+
+To get faster support , You can contact through our official forum site.
+Official support forum : http://supports.cybercraftit.com/supports/support/woo-purchased-products/
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.
