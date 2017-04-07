@@ -70,8 +70,8 @@ class wcpp_vote {
                     <a href="http://cybercraftit.com/" target="_blank"><img src="http://2.gravatar.com/avatar/b81a0fdd8fafcb4148aa8c5b41e56431?s=64&d=mm&r=g" alt="<?php _e( 'Mithu A Quayium', 'wcpp' ); ?>" width="50" height="50"></a>
                 </div>
                 <div class="wcpp-vote-message">
-                    <p><?php _e( '<h3>We Need Your Support</h3>Thanks for using <strong>Shortcode Maker</strong>.<br>If you find this plugin useful, please rate us, share and tweet to let 
-others know about it, and help us improving it by your valuable suggestions .<br><b>Thank you!</b>', 'wcpp' ); ?></p>
+                    <p><?php _e( '<h3>We Need Your Support</h3>Thanks for using <strong>Woo Purchased Products</strong>.<br>If you find this plugin useful, please rate us, share and tweet to let 
+others know about it, and help us improving it by your valuable suggestion .<br><b>Thank you!</b>', 'wcpp' ); ?></p>
                     <p>
                         <?php echo $btn_str; ?>
                     </p>
