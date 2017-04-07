@@ -5,7 +5,7 @@ Plugin URI:
 Description: Shows list of products purchased by the logged in user in his account
 Author: Mithu A Quayium
 Author URI:
-Version: 1.0
+Version: 1.1
 Text Domain: wcpp
 License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */

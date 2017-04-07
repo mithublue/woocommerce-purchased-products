@@ -3,7 +3,7 @@ Contributors: mithublue,cybercraftit
 Tags: woocommerce purchased product history, WooCommerce purchased products, woo purchased products, purchased product list, customer admin panel, purchased products record, bought products, bought products list, customer purchased product, customer purchased product list
 Requires at least: 3.0.1
 Tested up to: 4.7.3
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
